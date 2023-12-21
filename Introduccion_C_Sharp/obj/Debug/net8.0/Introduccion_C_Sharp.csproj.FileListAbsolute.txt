@@ -1,0 +1,14 @@
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\bin\Debug\net8.0\Introduccion_C_Sharp.exe
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\bin\Debug\net8.0\Introduccion_C_Sharp.deps.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\bin\Debug\net8.0\Introduccion_C_Sharp.runtimeconfig.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\bin\Debug\net8.0\Introduccion_C_Sharp.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\bin\Debug\net8.0\Introduccion_C_Sharp.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.AssemblyInfoInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.AssemblyInfo.cs
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.csproj.CoreCompileInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\refint\Introduccion_C_Sharp.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.genruntimeconfig.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\ref\Introduccion_C_Sharp.dll
