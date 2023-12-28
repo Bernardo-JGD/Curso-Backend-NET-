@@ -1,0 +1,15 @@
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\bin\Debug\net8.0\Aprendiendo_LINQ.exe
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\bin\Debug\net8.0\Aprendiendo_LINQ.deps.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\bin\Debug\net8.0\Aprendiendo_LINQ.runtimeconfig.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\bin\Debug\net8.0\Aprendiendo_LINQ.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\bin\Debug\net8.0\Aprendiendo_LINQ.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.AssemblyInfoInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.AssemblyInfo.cs
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.csproj.CoreCompileInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.sourcelink.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\refint\Aprendiendo_LINQ.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\Aprendiendo_LINQ.genruntimeconfig.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Aprendiendo_LINQ\obj\Debug\net8.0\ref\Aprendiendo_LINQ.dll

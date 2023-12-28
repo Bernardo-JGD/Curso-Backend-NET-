@@ -1,0 +1,15 @@
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\bin\Debug\net8.0\Generics.exe
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\bin\Debug\net8.0\Generics.deps.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\bin\Debug\net8.0\Generics.runtimeconfig.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\bin\Debug\net8.0\Generics.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\bin\Debug\net8.0\Generics.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.AssemblyInfoInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.AssemblyInfo.cs
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.csproj.CoreCompileInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.sourcelink.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\refint\Generics.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\Generics.genruntimeconfig.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Generics\obj\Debug\net8.0\ref\Generics.dll

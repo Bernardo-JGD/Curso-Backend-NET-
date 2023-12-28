@@ -1,0 +1,15 @@
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\bin\Debug\net8.0\Funcion_Clases.exe
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\bin\Debug\net8.0\Funcion_Clases.deps.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\bin\Debug\net8.0\Funcion_Clases.runtimeconfig.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\bin\Debug\net8.0\Funcion_Clases.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\bin\Debug\net8.0\Funcion_Clases.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.AssemblyInfoInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.AssemblyInfo.cs
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.csproj.CoreCompileInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.sourcelink.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\refint\Funcion_Clases.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\Funcion_Clases.genruntimeconfig.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Funcion_Clases\obj\Debug\net8.0\ref\Funcion_Clases.dll

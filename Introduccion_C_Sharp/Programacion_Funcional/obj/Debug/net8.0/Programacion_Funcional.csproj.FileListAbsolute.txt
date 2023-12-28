@@ -1,0 +1,15 @@
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\bin\Debug\net8.0\Programacion_Funcional.exe
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\bin\Debug\net8.0\Programacion_Funcional.deps.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\bin\Debug\net8.0\Programacion_Funcional.runtimeconfig.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\bin\Debug\net8.0\Programacion_Funcional.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\bin\Debug\net8.0\Programacion_Funcional.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.AssemblyInfoInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.AssemblyInfo.cs
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.csproj.CoreCompileInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.sourcelink.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\refint\Programacion_Funcional.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\Programacion_Funcional.genruntimeconfig.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\Programacion_Funcional\obj\Debug\net8.0\ref\Programacion_Funcional.dll

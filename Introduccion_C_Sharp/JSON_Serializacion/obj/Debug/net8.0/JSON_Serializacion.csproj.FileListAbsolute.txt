@@ -1,0 +1,15 @@
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\bin\Debug\net8.0\JSON_Serializacion.exe
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\bin\Debug\net8.0\JSON_Serializacion.deps.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\bin\Debug\net8.0\JSON_Serializacion.runtimeconfig.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\bin\Debug\net8.0\JSON_Serializacion.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\bin\Debug\net8.0\JSON_Serializacion.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.AssemblyInfoInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.AssemblyInfo.cs
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.csproj.CoreCompileInputs.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.sourcelink.json
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\refint\JSON_Serializacion.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.pdb
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\JSON_Serializacion.genruntimeconfig.cache
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\JSON_Serializacion\obj\Debug\net8.0\ref\JSON_Serializacion.dll

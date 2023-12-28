@@ -12,3 +12,4 @@ C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\refint\In
 C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.pdb
 C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.genruntimeconfig.cache
 C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\ref\Introduccion_C_Sharp.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Introduccion_C_Sharp\obj\Debug\net8.0\Introduccion_C_Sharp.sourcelink.json
