@@ -1,30 +1,35 @@
 ﻿using Backend.DTOs;
 using Backend.Models;
+using Backend.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Services
 {
     public class BeerService : ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto>
     {
-        private StoreContext _storeContext;
+        private IRepository<Beer> _beerRepository;
 
-        public BeerService(StoreContext storeContext)
+        public BeerService(IRepository<Beer> beerRepository)
         {
-            _storeContext = storeContext;
+            _beerRepository = beerRepository;
         }
 
-        public async Task<IEnumerable<BeerDto>> Get() =>
-            await _storeContext.Beers.Select(beer => new BeerDto
+        public async Task<IEnumerable<BeerDto>> Get()
+        {
+            var beers = await _beerRepository.Get();
+
+            return beers.Select(b => new BeerDto
             {
-                Id = beer.BeerID,
-                Name = beer.Name,
-                Alcohol = beer.Alcohol,
-                BrandID = beer.BrandID
-            }).ToListAsync();
+                Id = b.BeerID,
+                Name = b.Name,
+                Alcohol = b.Alcohol,
+                BrandID = b.BrandID
+            });
+        }
 
         public async Task<BeerDto> GetById(int id)
         {
-            var beer = await _storeContext.Beers.FindAsync(id);
+            var beer = await _beerRepository.GetById(id);
 
             if (beer != null)
             {
@@ -52,9 +57,9 @@ namespace Backend.Services
 
             //Aquí todavía no se hace el insert en la debe
             //solo le avisa a entityFramework que va a  haber un insert
-            await _storeContext.Beers.AddAsync(beer);
+            await _beerRepository.Add(beer);
             //Aquí ya se ven reflejados los cambios en la base de datos
-            await _storeContext.SaveChangesAsync();
+            await _beerRepository.Save();
 
             var beerDto = new BeerDto
             {
@@ -69,14 +74,18 @@ namespace Backend.Services
 
         public async Task<BeerDto> Update(int id, BeerUpdateDto beerUpdateDto)
         {
-            var beer = await _storeContext.Beers.FindAsync(id);
+            var beer = await _beerRepository.GetById(id);
 
             if (beer != null)
             {
                 beer.Name = beerUpdateDto.Name;
                 beer.Alcohol = beerUpdateDto.Alcohol;
                 beer.BrandID = beerUpdateDto.BrandID;
-                await _storeContext.SaveChangesAsync();
+
+                //aquí no tiene await porque solo está haciendo un Atach
+                //de la entidad beer, 
+                _beerRepository.Update(beer);
+                await _beerRepository.Save();
 
                 var beerDto = new BeerDto
                 {
@@ -94,7 +103,7 @@ namespace Backend.Services
 
         public async Task<BeerDto> Delete(int id)
         {
-            var beer = await _storeContext.Beers.FindAsync(id);
+            var beer = await _beerRepository.GetById(id);
 
             if (beer != null)
             {
@@ -107,8 +116,8 @@ namespace Backend.Services
                     BrandID = beer.BrandID
                 };
 
-                _storeContext.Remove(beer);
-                await _storeContext.SaveChangesAsync();
+                _beerRepository.Delete(beer);
+                await _beerRepository.Save();
 
                 return beerDto;
             }
