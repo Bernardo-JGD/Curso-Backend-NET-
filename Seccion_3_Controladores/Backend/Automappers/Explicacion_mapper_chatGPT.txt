@@ -1,0 +1,36 @@
+﻿
+CreateMap<Beer, BeerDto>()
+    .ForMember(dto => dto.Id,
+               m => m.MapFrom(b => b.BeerID));
+
+Este código se está utilizando para crear un mapeo entre una clase Beer y una clase BeerDto. 
+Estás configurando AutoMapper para que pueda realizar el mapeo correctamente, 
+incluso cuando los nombres de las propiedades no coincidan exactamente.
+
+*****	CreateMap<Beer, BeerDto>():
+**Se crea un mapeo desde la clase Beer hacia la clase BeerDto. 
+Esto significa que cuando AutoMapper encuentre una instancia de Beer, 
+sabrá cómo convertirla a una instancia de BeerDto.
+
+*****.	ForMember(dto => dto.Id, m => m.MapFrom(b => b.BeerID)):
+**	Aquí estás especificando que deseas mapear la propiedad Id de la clase BeerDto.
+
+**ForMember te permite configurar el mapeo para una propiedad específica.
+
+**dto => dto.Id indica que estás configurando la propiedad Id de BeerDto.
+
+**m => m.MapFrom(b => b.BeerID) indica que el valor de Id en BeerDto se debe tomar de la
+propiedad BeerID en la instancia de Beer que estás mapeando.
+
+
+Ejemplo adicional:
+Si tuvieras más atributos que necesitas mapear de manera personalizada, 
+podrías agregar múltiples configuraciones ForMember en la misma llamada CreateMap. 
+Por ejemplo:
+
+CreateMap<Beer, BeerDto>()
+    .ForMember(dto => dto.Id, m => m.MapFrom(b => b.BeerID))
+    .ForMember(dto => dto.Nombre, m => m.MapFrom(b => b.Name))
+    .ForMember(dto => dto.Marca, m => m.MapFrom(b => b.Brand));
+
+

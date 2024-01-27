@@ -136,3 +136,5 @@ C:\Net_Backend_C_SHARP_Udemy_git\Seccion_3_Controladores\Backend\bin\Debug\net8.
 C:\Net_Backend_C_SHARP_Udemy_git\Seccion_3_Controladores\Backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Net_Backend_C_SHARP_Udemy_git\Seccion_3_Controladores\Backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Net_Backend_C_SHARP_Udemy_git\Seccion_3_Controladores\Backend\bin\Debug\net8.0\FluentValidation.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Seccion_3_Controladores\Backend\bin\Debug\net8.0\AutoMapper.dll
+C:\Net_Backend_C_SHARP_Udemy_git\Seccion_3_Controladores\Backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
