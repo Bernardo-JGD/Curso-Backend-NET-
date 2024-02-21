@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Proyecto_Escuela_v1.Context;
 
@@ -11,9 +12,11 @@ using Proyecto_Escuela_v1.Context;
 namespace Proyecto_Escuela_v1.Migrations
 {
     [DbContext(typeof(EscuelaContext))]
-    partial class EscuelaContextModelSnapshot : ModelSnapshot
+    [Migration("20240221020401_Agregando_DbSet_Ubicacion")]
+    partial class Agregando_DbSet_Ubicacion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -127,45 +130,6 @@ namespace Proyecto_Escuela_v1.Migrations
                     b.HasKey("MaestroID");
 
                     b.ToTable("Maestros");
-                });
-
-            modelBuilder.Entity("Proyecto_Escuela_v1.Models.Materia", b =>
-                {
-                    b.Property<int>("MateriaID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MateriaID"));
-
-                    b.Property<string>("ClaveMateria")
-                        .IsRequired()
-                        .HasColumnType("VARCHAR(10)");
-
-                    b.Property<byte>("CreditosOtorgados")
-                        .HasColumnType("TINYINT");
-
-                    b.Property<byte>("CreditosRequeridos")
-                        .HasColumnType("TINYINT");
-
-                    b.Property<byte>("Cupo")
-                        .HasColumnType("TINYINT");
-
-                    b.Property<DateTime>("FechaFinSemestre")
-                        .HasColumnType("DATE");
-
-                    b.Property<DateTime>("FechaInicioSemestre")
-                        .HasColumnType("DATE");
-
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("VARCHAR(100)");
-
-                    b.Property<byte>("Semestre")
-                        .HasColumnType("TINYINT");
-
-                    b.HasKey("MateriaID");
-
-                    b.ToTable("Materias");
                 });
 
             modelBuilder.Entity("Proyecto_Escuela_v1.Models.Ubicacion", b =>

@@ -8,6 +8,7 @@
         public byte CreditosRequeridos { get; set; }
         public byte CreditosOtorgados { get; set; }
         public byte Semestre { get; set; }
+        public byte Cupo { get; set; }
         public DateTime FechaInicioSemestre { get; set; }
         public DateTime FechaFinSemestre { get; set; }
     }

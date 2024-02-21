@@ -20,6 +20,8 @@ namespace Proyecto_Escuela_v1.Models
 
         [Column(TypeName = "DATE")]
         public DateTime FechaNacimiento { get; set; }
+
+        //[Column(TypeName = "TINYINT")]
         public int EstadoID { get; set; }
 
         [ForeignKey("EstadoID")]
