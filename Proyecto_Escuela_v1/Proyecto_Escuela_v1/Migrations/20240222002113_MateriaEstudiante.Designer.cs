@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Proyecto_Escuela_v1.Context;
 
@@ -11,9 +12,11 @@ using Proyecto_Escuela_v1.Context;
 namespace Proyecto_Escuela_v1.Migrations
 {
     [DbContext(typeof(EscuelaContext))]
-    partial class EscuelaContextModelSnapshot : ModelSnapshot
+    [Migration("20240222002113_MateriaEstudiante")]
+    partial class MateriaEstudiante
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -102,35 +105,6 @@ namespace Proyecto_Escuela_v1.Migrations
                     b.HasKey("HorarioID");
 
                     b.ToTable("Horarios");
-                });
-
-            modelBuilder.Entity("Proyecto_Escuela_v1.Models.Imparte", b =>
-                {
-                    b.Property<int>("MaestroID")
-                        .HasColumnType("int")
-                        .HasColumnName("MaestroID");
-
-                    b.Property<int>("MateriaID")
-                        .HasColumnType("int")
-                        .HasColumnName("MateriaID");
-
-                    b.Property<int>("HorarioID")
-                        .HasColumnType("int")
-                        .HasColumnName("HorarioID");
-
-                    b.Property<byte>("UbicacionID")
-                        .HasColumnType("TINYINT")
-                        .HasColumnName("UbicacionID");
-
-                    b.HasKey("MaestroID", "MateriaID", "HorarioID", "UbicacionID");
-
-                    b.HasIndex("HorarioID");
-
-                    b.HasIndex("MateriaID");
-
-                    b.HasIndex("UbicacionID");
-
-                    b.ToTable("Impartes", (string)null);
                 });
 
             modelBuilder.Entity("Proyecto_Escuela_v1.Models.Maestro", b =>
@@ -247,41 +221,6 @@ namespace Proyecto_Escuela_v1.Migrations
                     b.Navigation("Estado");
                 });
 
-            modelBuilder.Entity("Proyecto_Escuela_v1.Models.Imparte", b =>
-                {
-                    b.HasOne("Proyecto_Escuela_v1.Models.Horario", "Horario")
-                        .WithMany("Impartes")
-                        .HasForeignKey("HorarioID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Proyecto_Escuela_v1.Models.Maestro", "Maestro")
-                        .WithMany("Impartes")
-                        .HasForeignKey("MaestroID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Proyecto_Escuela_v1.Models.Materia", "Materia")
-                        .WithMany("Impartes")
-                        .HasForeignKey("MateriaID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Proyecto_Escuela_v1.Models.Ubicacion", "Ubicacion")
-                        .WithMany("Impartes")
-                        .HasForeignKey("UbicacionID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Horario");
-
-                    b.Navigation("Maestro");
-
-                    b.Navigation("Materia");
-
-                    b.Navigation("Ubicacion");
-                });
-
             modelBuilder.Entity("Proyecto_Escuela_v1.Models.MateriaEstudiante", b =>
                 {
                     b.HasOne("Proyecto_Escuela_v1.Models.Estudiante", "Estudiante")
@@ -306,26 +245,9 @@ namespace Proyecto_Escuela_v1.Migrations
                     b.Navigation("Materias");
                 });
 
-            modelBuilder.Entity("Proyecto_Escuela_v1.Models.Horario", b =>
-                {
-                    b.Navigation("Impartes");
-                });
-
-            modelBuilder.Entity("Proyecto_Escuela_v1.Models.Maestro", b =>
-                {
-                    b.Navigation("Impartes");
-                });
-
             modelBuilder.Entity("Proyecto_Escuela_v1.Models.Materia", b =>
                 {
                     b.Navigation("Estudiantes");
-
-                    b.Navigation("Impartes");
-                });
-
-            modelBuilder.Entity("Proyecto_Escuela_v1.Models.Ubicacion", b =>
-                {
-                    b.Navigation("Impartes");
                 });
 #pragma warning restore 612, 618
         }

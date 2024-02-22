@@ -17,5 +17,7 @@ namespace Proyecto_Escuela_v1.Models
 
         [Column(TypeName = "VARCHAR(100)")]
         public string Correo { get; set; }
+
+        public virtual List<Imparte> Impartes { get; set; }
     }
 }

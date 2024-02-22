@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Proyecto_Escuela_v1.Context;
 
@@ -11,9 +12,11 @@ using Proyecto_Escuela_v1.Context;
 namespace Proyecto_Escuela_v1.Migrations
 {
     [DbContext(typeof(EscuelaContext))]
-    partial class EscuelaContextModelSnapshot : ModelSnapshot
+    [Migration("20240222022738_Agregando_Imparte")]
+    partial class Agregando_Imparte
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

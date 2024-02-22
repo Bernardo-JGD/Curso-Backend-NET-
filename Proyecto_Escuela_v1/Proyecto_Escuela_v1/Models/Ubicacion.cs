@@ -18,5 +18,7 @@ namespace Proyecto_Escuela_v1.Models
 
         [Column(TypeName = "TINYINT")]
         public byte Salon { get; set; }
+
+        public List<Imparte> Impartes { get; set; }
     }
 }

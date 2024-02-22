@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Proyecto_Escuela_v1.Models
 {
@@ -26,6 +27,11 @@ namespace Proyecto_Escuela_v1.Models
 
         [ForeignKey("EstadoID")]
         public virtual Estado Estado { get; set; }
+
+        //[NotNull]
+        //public virtual ICollection<Materia> Materias { get; set; }
+
+        public virtual List<MateriaEstudiante> Materias { get; set; }
 
     }
 }
