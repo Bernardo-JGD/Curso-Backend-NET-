@@ -11,7 +11,7 @@ namespace Proyecto_Escuela_v1.Models
         public int EstadoID { get; set; }
         [Column(TypeName = "VARCHAR(25)")]
         public string Nombre { get; set; }
-        [Column(TypeName = "VARCHAR(3)")]
+        [Column(TypeName = "VARCHAR(5)")]
         public string Abreviatura { get; set; }
     }
 }

@@ -1,10 +1,27 @@
 using Microsoft.EntityFrameworkCore;
 using Proyecto_Escuela_v1.Context;
+using Proyecto_Escuela_v1.DTOs;
+using Proyecto_Escuela_v1.Models;
+using Proyecto_Escuela_v1.Repository;
+using Proyecto_Escuela_v1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+//Repository
+builder.Services.AddScoped<IRepository<Estado>, EstadoRepository>();
+builder.Services.AddScoped<IRepository<Estudiante>, EstudianteRepository>();
+builder.Services.AddScoped<IRepository<Horario>, HorarioRepository>();
+builder.Services.AddScoped<IRepository<Imparte>, ImparteRepository>();
+builder.Services.AddScoped<IRepository<Maestro>, MaestroRepository>();
+builder.Services.AddScoped<IRepository<Materia>, MateriaRepository>();
+builder.Services.AddScoped<IRepository<MateriaEstudiante>, MateriaEstudianteRepository>();
+builder.Services.AddScoped<IRepository<Ubicacion>, UbicacionRepository>();
+
+//ICommonService
+builder.Services.AddScoped<ICommonService<EstadoDTO, EstadoInsertDTO, EstadoUpdateDTO>, EstadoService>();
+builder.Services.AddScoped<ICommonService<EstudianteDTO, EstudianteInsertDTO, EstudianteUpdateDTO>, EstudianteService>();
 
 //Entity Framework
 builder.Services.AddDbContext<EscuelaContext>(options =>

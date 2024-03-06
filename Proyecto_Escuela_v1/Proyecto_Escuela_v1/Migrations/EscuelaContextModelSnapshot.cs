@@ -32,7 +32,7 @@ namespace Proyecto_Escuela_v1.Migrations
 
                     b.Property<string>("Abreviatura")
                         .IsRequired()
-                        .HasColumnType("VARCHAR(3)");
+                        .HasColumnType("VARCHAR(5)");
 
                     b.Property<string>("Nombre")
                         .IsRequired()

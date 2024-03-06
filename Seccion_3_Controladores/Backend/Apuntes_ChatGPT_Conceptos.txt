@@ -47,10 +47,13 @@ Uso en ASP.NET Core:
 
 Se utilizan para manejar operaciones asincrónicas en controladores, evitando el bloqueo del hilo principal.
 Permite construir aplicaciones web eficientes al liberar recursos del hilo principal mientras se realizan operaciones que pueden tomar tiempo.
-En resumen, ActionResult e IActionResult se utilizan para representar los resultados de las acciones en ASP.NET Core, y Task, async, y await se utilizan para trabajar de manera asincrónica y eficiente, especialmente en operaciones de E/S en aplicaciones web.
+En resumen, ActionResult e IActionResult se utilizan para representar los resultados de las acciones en ASP.NET Core,
+y Task, async, y await se utilizan para trabajar de manera asincrónica y eficiente, especialmente en operaciones
+de E/S en aplicaciones web.
 
 
-¿Entonces, cuando uso IActionResult no tengo que especificar el tipo de dato de retorno pero cuando utilizo ActionResult tengo que especificar el tipo de datos de retorno entre "<>"?
+¿Entonces, cuando uso IActionResult no tengo que especificar el tipo de dato de retorno pero
+cuando utilizo ActionResult tengo que especificar el tipo de datos de retorno entre "<>"?
 ChatGPT
 Sí, esa es una diferencia clave entre IActionResult y ActionResult<T>. Permíteme explicarlo con más detalle:
 
@@ -60,7 +63,9 @@ No especificas el tipo de dato de retorno en la declaración del método.
 
 Es una abstracción más general que puede representar cualquier tipo de resultado de acción.
 
-Puedes devolver diferentes tipos de resultados (ViewResult, JsonResult, ContentResult, etc.) sin tener que especificar el tipo de dato en la declaración del método.
+Puedes devolver diferentes tipos de resultados (ViewResult, JsonResult, ContentResult, etc.) sin tener que
+especificar el tipo de dato en la declaración del método.
+
 public IActionResult MyAction()
 {
     // Puedes devolver diferentes tipos de resultados
@@ -80,6 +85,10 @@ public ActionResult<MyDataModel> MyAction()
     return Json(new MyDataModel { Prop1 = "value1", Prop2 = "value2" });
 }
 
-ActionResult<T> es particularmente útil cuando deseas especificar de manera explícita el tipo de dato que será serializado y devuelto como respuesta (por ejemplo, en una API).
+ActionResult<T> es particularmente útil cuando deseas especificar de manera explícita el tipo de dato que
+será serializado y devuelto como respuesta (por ejemplo, en una API).
 
-En resumen, IActionResult proporciona flexibilidad para devolver cualquier tipo de resultado sin especificar el tipo de dato en la declaración del método. ActionResult<T>, por otro lado, te permite especificar el tipo de dato de retorno, lo que puede ser útil cuando deseas ser más preciso con el tipo de datos que estás devolviendo, especialmente en el contexto de APIs donde se espera una estructura de datos específica.
+En resumen, IActionResult proporciona flexibilidad para devolver cualquier tipo de resultado sin especificar el tipo
+de dato en la declaración del método. ActionResult<T>, por otro lado, te permite especificar
+el tipo de dato de retorno, lo que puede ser útil cuando deseas ser más preciso con el tipo de datos
+que estás devolviendo, especialmente en el contexto de APIs donde se espera una estructura de datos específica.
